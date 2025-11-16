@@ -1,0 +1,96 @@
+{
+  "intents": {
+    "cv_advice": {
+      "questions": [
+        "Comment améliorer mon CV de PNC ?",
+        "Quelles compétences mettre en avant pour un poste d'hôtesse de l'air ?",
+        "Exemple de CV pour un poste de steward"
+      ],
+      "response": "Pour un CV de PNC (Personnel Navigant Commercial), mettez en avant :\n1. Vos expériences en service client\n2. Vos compétences linguistiques (niveaux CECRL)\n3. Vos formations spécifiques (sécurité aérienne, premiers secours)\n4. Votre mobilité géographique\n5. Vos expériences internationales\n\nConseil : Utilisez des verbes d'action comme 'coordonner', 'gérer', 'assister' pour décrire vos expériences.",
+      "suggestions": ["Modèle de CV", "Lettre de motivation", "Compétences clés"]
+    },
+    "job_search": {
+      "questions": [
+        "Quelles compagnies recrutent actuellement ?",
+        "Où trouver des offres d'emploi pour PNC ?",
+        "Quand ont lieu les recrutements ?"
+      ],
+      "response": "Les principales compagnies qui recrutent régulièrement :\n\n1. Compagnies européennes :\n   - Air France (recrutements saisonniers)\n   - Lufthansa (campagnes annuelles)\n   - British Airways\n   - EasyJet (recrutement continu)\n\n2. Compagnies du Golfe :\n   - Emirates (campagnes mensuelles)\n   - Qatar Airways (recrutements fréquents)\n   - Etihad Airways\n\nConseil : Inscrivez-vous aux alertes emploi sur les sites des compagnies et sur des plateformes spécialisées comme Aeroemploiformation.",
+      "suggestions": ["Sites de recrutement", "Agences spécialisées", "Préparation entretien"]
+    },
+    "interview_prep": {
+      "questions": [
+        "Comment se préparer pour un entretien chez Emirates ?",
+        "Questions d'entretien pour PNC",
+        "Conseils entretien compagnie aérienne"
+      ],
+      "response": "Préparation pour un entretien de PNC :\n\n1. Recherche sur la compagnie :\n   - Histoire et valeurs\n   - Flotte et destinations\n   - Actualités récentes\n\n2. Tenue :\n   - Costume sombre (homme/femme)\n   - Coiffure soignée\n   - Maquillage discret (pour les femmes)\n   - Pas de piercing/accessoires voyants\n\n3. Questions fréquentes :\n   - Pourquoi voulez-vous être PNC ?\n   - Comment géreriez-vous un passager difficile ?\n   - Êtes-vous à l'aise avec les déplacements fréquents ?\n\n4. Tests :\n   - Anglais (écrit et oral)\n   - Tests psychotechniques\n   - Épreuves de groupe",
+      "suggestions": ["Simulation d'entretien", "Tests psychotechniques", "Tenue vestimentaire"]
+    },
+    "training_certifications": {
+      "questions": [
+        "Quelles formations pour devenir PNC ?",
+        "Certifications nécessaires pour travailler en cabine",
+        "Formation SMURF obligatoire ?"
+      ],
+      "response": "Formations essentielles pour PNC :\n\n1. CCA (Cabin Crew Attestation) - Formation initiale obligatoire\n2. Certificat de Formation de Sécurité (CFS)\n3. Certificat d'Aptitude à l'Exploitation (CAE)\n4. Formation SMURF (Sécurité des Moyens et Utilisateurs de la Règlementation Française) pour les vols français\n5. Certificat de Secourisme (PSC1 minimum)\n\nDurée : 4 à 12 semaines selon les formations\nCoût : 1000€ à 5000€ (parfois financé par Pôle Emploi ou les régions)",
+      "suggestions": ["Centres de formation", "Financements possibles", "Programme détaillé"]
+    },
+    "salary_info": {
+      "questions": [
+        "Quel est le salaire d'un PNC ?",
+        "Rémunération chez Air France",
+        "Salaire débutant compagnie du Golfe"
+      ],
+      "response": "Rémunération moyenne (brut mensuel) :\n\n1. Compagnies européennes :\n   - Débutant : 1500-1800€\n   - Confirmé : 2000-2500€\n   - Chef de cabine : 2500-3500€\n\n2. Compagnies du Golfe :\n   - Débutant : 1800-2200€ (hors avantages)\n   - Logement et transport fournis\n   - Pas d'impôts sur le revenu\n   - Billets d'avion offerts\n\nAvantages en nature courants :\n- Billets d'avion à tarif réduit\n- Mutuelle\n- Remboursement transport",
+      "suggestions": ["Grilles salariales", "Avantages en nature", "Évolution de carrière"]
+    },
+    "career_progression": {
+      "questions": [
+        "Évolution possible pour un PNC ?",
+        "Comment devenir chef de cabine ?",
+        "Reconversion après PNC"
+      ],
+      "response": "Évolutions de carrière possibles :\n\n1. Au sein de la cabine :\n   - Chef de cabine principal\n   - Instructeur sécurité/sécurité\n   - Chef de cabine chef de cabine\n\n2. Au sol :\n   - Gestionnaire de formation\n   - Responsable cabine\n   - Recruteur\n   - Gestion des opérations\n\n3. Reconversion :\n   - Hôtellerie/événementiel\n   - Formation\n   - Ressources humaines\n\nConseil : Pour évoluer, formez-vous régulièrement et montrez votre implication.",
+      "suggestions": ["Formations conseillées", "Témoignages", "Fiches métiers"]
+    },
+    "work_conditions": {
+      "questions": [
+        "Conditions de travail d'un PNC",
+        "Horaires de travail hôtesse de l'air",
+        "Avantages et inconvénients du métier"
+      ],
+      "response": "Conditions de travail typiques :\n\n1. Horaires :\n   - Temps partiel possible (environ 80h/mois)\n   - Jusqu'à 900h de vol annuelles\n   - Travail les week-ends et jours fériés\n   - Décalages horaires fréquents\n\n2. Avantages :\n   - Voyages\n   - Rencontres humaines\n   - Horaires variables\n   - Avantages sociaux\n\n3. Inconvénients :\n   - Fatigue due aux décalages\n   - Éloignement familial\n   - Conditions parfois difficiles (décalage horaire, passagers difficiles)",
+      "suggestions": ["Témoignages", "Conseils bien-être", "Droits du travail"]
+    }
+  },
+  "small_talk": {
+    "greeting": {
+      "patterns": ["bonjour", "salut", "coucou", "hello", "hey"],
+      "responses": [
+        "Bonjour ! Comment puis-je vous aider dans votre recherche d'emploi aéronautique aujourd'hui ?",
+        "Salut ! Prêt(e) à faire décoller votre carrière dans l'aérien ?"
+      ]
+    },
+    "thanks": {
+      "patterns": ["merci", "c'est gentil", "super merci", "parfait merci"],
+      "responses": [
+        "Je vous en prie ! N'hésitez pas si vous avez d'autres questions sur votre carrière aéronautique.",
+        "Avec plaisir ! Bonne continuation dans vos démarches."
+      ]
+    },
+    "goodbye": {
+      "patterns": ["au revoir", "à bientôt", "bonne journée", "à plus"],
+      "responses": [
+        "Bonne continuation dans vos projets aéronautiques !",
+        "À bientôt parmi les nuages ! N'hésitez pas à revenir pour plus de conseils."
+      ]
+    }
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2025-11-04",
+    "categories": ["Carrière", "Formation", "Emploi", "Conditions de travail"],
+    "languages": ["fr"]
+  }
+}

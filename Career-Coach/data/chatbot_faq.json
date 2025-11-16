@@ -1,0 +1,105 @@
+{
+    "intents": {
+        "PNC_Skills": {
+            "keywords": ["compétences", "qualités", "qualités requises", "devenir PNC", "profil idéal", "compétences nécessaires"],
+            "response": "Les compétences clés pour devenir PNC (Personnel Navigant Commercial) sont :\n\n1. Compétences en service client :\n   - Sens du contact et aisance relationnelle\n   - Empathie et écoute active\n   - Résistance au stress\n\n2. Compétences linguistiques :\n   - Français courant obligatoire\n   - Anglais opérationnel (niveau B2 minimum)\n   - Une troisième langue est un plus\n\n3. Compétences techniques :\n   - Connaissance des procédures de sécurité\n   - Formation aux premiers secours (PSC1 ou équivalent)\n   - Maîtrise des gestes de survie\n\n4. Qualités personnelles :\n   - Esprit d'équipe\n   - Flexibilité (horaires décalés, week-ends, jours fériés)\n   - Bonne condition physique\n   - Sens des responsabilités\n\n5. Compétences spécifiques :\n   - Gestion des conflits\n   - Capacité à travailler en équipe multiculturelle\n   - Résistance à la fatigue",
+            "suggestions": ["Formations recommandées", "Tests de sélection", "Expériences valorisantes"],
+            "metadata": {
+                "category": "Carrière",
+                "last_updated": "2025-11-05"
+            }
+        },
+        "CV_Advice": {
+            "keywords": ["CV", "curriculum vitae", "modèle CV", "conseils CV", "rédiger CV", "exemple CV"],
+            "response": "Pour un CV dans l'aérien, mettez en avant :\n1. Vos expériences en service client et gestion de crise\n2. Vos compétences linguistiques (indiquez le niveau CECRL)\n3. Vos formations spécifiques (SMURF, MCC, etc.)\n4. Votre mobilité et flexibilité\n5. Vos expériences internationales\n\nConseil : Adaptez votre CV à chaque compagnie en reprenant les mots-clés de l'offre d'emploi.",
+            "suggestions": ["Exemple de CV pour PNC", "Compétences à mettre en avant", "Erreurs à éviter"],
+            "metadata": {
+                "category": "Carrière",
+                "last_updated": "2025-11-04"
+            }
+        },
+        "Interview_Tips": {
+            "keywords": ["entretien", "interview", "questions entretien", "préparation entretien", "entretien PNC"],
+            "response": "Préparation type pour un entretien de PNC :\n\n1. Recherchez la compagnie (flotte, destinations, valeurs)\n2. Préparez des exemples concrets de situations de service client\n3. Entraînez-vous aux tests de personnalité et d'anglais\n4. Prévoyez une tenue professionnelle (costume sombre pour les hommes, tailleur pour les femmes)\n5. Questions fréquentes :\n   - Pourquoi voulez-vous travailler pour nous ?\n   - Comment gérez-vous un client difficile ?\n   - Quelles sont vos forces/faiblesses ?",
+            "suggestions": ["Questions à poser au recruteur", "Tests psychotechniques", "Tenue vestimentaire"],
+            "metadata": {
+                "category": "Carrière",
+                "last_updated": "2025-11-04"
+            }
+        },
+        "Job_Matching": {
+            "keywords": ["offres", "emploi", "postuler", "compétences", "profil", "matching", "recrutement"],
+            "response": "Pour trouver des offres adaptées :\n\n1. Compagnies traditionnelles (Air France, Lufthansa) :\n   - Expérience exigée\n   - Processus de recrutement long\n   - Stabilité\n\n2. Compagnies du Golfe (Emirates, Qatar, Etihad) :\n   - Expérience souvent requise\n   - Rémunération attractive\n   - Contrat à durée déterminée\n\n3. Compagnies low-cost (Ryanair, EasyJet) :\n   - Bonne première expérience\n   - Horaires chargés\n   - Ambiance jeune et dynamique",
+            "suggestions": ["Meilleures compagnies pour débuter", "Salaire moyen par compagnie", "Avantages en nature"],
+            "metadata": {
+                "category": "Emploi",
+                "last_updated": "2025-11-04"
+            }
+        },
+        "Flight_Training": {
+            "keywords": ["formation", "certification", "Cabin Crew", "sécurité", "premiers secours", "SMURF", "MCC"],
+            "response": "Formations essentielles :\n\n1. SMURF (Sécurité des Moyens et des Utilisateurs de la Règlementation Française) : Obligatoire pour voler sur des avions français\n2. MCC (Multi Crew Coordination) : Nécessaire pour les longs courriers\n3. SEP (Safety Emergency Procedures) : Procédures d'urgence\n4. Premiers secours avancés\n5. Formation SST (Sauveteur Secouriste du Travail)\n\nDurée moyenne : 4-8 semaines selon la formation.\nCoût : Variable (comptez 1000-3000€). Certaines compagnies forment en interne.",
+            "suggestions": ["Centres de formation agréés", "Financement des formations", "Reconversion professionnelle"],
+            "metadata": {
+                "category": "Formation",
+                "last_updated": "2025-11-04"
+            }
+        },
+        "Career_Progression": {
+            "keywords": ["évolution", "carrière", "promotion", "chef de cabine", "instructeur"],
+            "response": "Évolutions de carrière possibles :\n\n1. Chef de cabine principal\n2. Instructeur sécurité/sécurité\n3. Chef de cabine chef de cabine\n4. Gestionnaire de formation\n5. Responsable cabine\n\nConseil : Pour évoluer, formez-vous régulièrement et montrez votre implication. Les compétences en gestion d'équipe et en formation sont un plus.",
+            "suggestions": ["Formations pour évoluer", "Salaire par poste", "Témoignages"],
+            "metadata": {
+                "category": "Carrière",
+                "last_updated": "2025-11-04"
+            }
+        },
+        "Work_Conditions": {
+            "keywords": ["salaire", "horaires", "avantages", "congés", "temps de travail"],
+            "response": "Conditions de travail typiques :\n\n- Temps partiel possible (environ 80h/mois)\n- Jusqu'à 900h de vol annuelles\n- Récupération des jours de repos\n- Avantages : billets d'avion à tarif réduit, assurances, mutuelle\n- Salaire moyen : 1800-2500€ net pour un PNC débutant en Europe\n\nLes conditions varient selon la compagnie, la taille de l'appareil et les destinations.",
+            "suggestions": ["Comparatif par compagnie", "Droits des PNC", "Conseils pour gérer les décalages"],
+            "metadata": {
+                "category": "Emploi",
+                "last_updated": "2025-11-04"
+            }
+        },
+        "Health_Wellness": {
+            "keywords": ["santé", "bien-être", "décalage horaire", "fatigue", "alimentation"],
+            "response": "Conseils santé pour le personnel navigant :\n\n1. Gestion du décalage horaire :\n   - Hydratation régulière\n   - Exposition à la lumière naturelle\n   - Alimentation légère et équilibrée\n\n2. Soin de la peau :\n   - Crème hydratante\n   - Protection solaire\n   - Soins des mains et ongles\n\n3. Exercices en vol :\n   - Étirements réguliers\n   - Port de bas de contention\n   - Exercices de circulation sanguine",
+            "suggestions": ["Exercices en cabine", "Alimentation en vol", "Gestion du stress"],
+            "metadata": {
+                "category": "Santé",
+                "last_updated": "2025-11-04"
+            }
+        }
+    },
+    "small_talk": {
+        "greeting": {
+            "patterns": ["bonjour", "salut", "coucou", "hello"],
+            "responses": [
+                "Bonjour ! Comment puis-je vous aider dans votre carrière aéronautique aujourd'hui ?",
+                "Salut ! Prêt(e) à faire décoller votre carrière ?"
+            ]
+        },
+        "thanks": {
+            "patterns": ["merci", "c'est gentil", "super merci"],
+            "responses": [
+                "Je vous en prie ! N'hésitez pas si vous avez d'autres questions.",
+                "Avec plaisir ! Bon vol dans vos démarches professionnelles."
+            ]
+        },
+        "goodbye": {
+            "patterns": ["au revoir", "à bientôt", "bonne journée"],
+            "responses": [
+                "Bonne continuation dans vos projets aéronautiques !",
+                "À bientôt parmi les nuages !"
+            ]
+        }
+    },
+    "metadata": {
+        "version": "1.0.0",
+        "last_updated": "2025-11-04",
+        "categories": ["Carrière", "Formation", "Emploi", "Santé"],
+        "languages": ["fr"]
+    }
+}

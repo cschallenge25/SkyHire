@@ -1,0 +1,54 @@
+# Fichiers d'environnement
+.env
+.env.*
+!.env.example
+
+# Fichiers de cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers de configuration locaux
+*.local
+
+# Fichiers de base de données
+*.db
+*.sqlite3
+*.sqlite
+
+# Fichiers de logs
+*.log
+
+# Dossiers de dépendances
+venv/
+env/
+.venv/
+
+# Fichiers IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Fichiers temporaires
+*.tmp
+*.bak
+*.swp
+*~.nib/
+
+# Fichiers de cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# Fichiers de données sensibles
+context_memory.json
+*.pem
+*.key
+
+# Fichiers de configuration utilisateur
+config_*.py
+
+# Fichiers de déploiement
+.DS_Store
+Thumbs.db
