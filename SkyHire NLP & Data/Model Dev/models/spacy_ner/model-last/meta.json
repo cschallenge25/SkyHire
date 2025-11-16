@@ -1,0 +1,88 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.8.8,<3.9.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"38056e9",
+  "vectors":{
+    "width":300,
+    "vectors":20000,
+    "keys":684830,
+    "name":"en_vectors",
+    "mode":"default"
+  },
+  "labels":{
+    "tok2vec":[
+
+    ],
+    "ner":[
+      "SKILL: BUILDING",
+      "SKILL: EQUIPMENT",
+      "SKILL: KNOWLEDGE",
+      "SKILL: MATERIALS",
+      "SKILL: PLANNING",
+      "SKILL: RESPONSIBILITIES",
+      "SKILL: SUPERVISION"
+    ]
+  },
+  "pipeline":[
+    "tok2vec",
+    "ner"
+  ],
+  "components":[
+    "tok2vec",
+    "ner"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "ents_f":0.4461538462,
+    "ents_p":0.6744186047,
+    "ents_r":0.3333333333,
+    "ents_per_type":{
+      "SKILL: KNOWLEDGE":{
+        "p":0.5294117647,
+        "r":0.4090909091,
+        "f":0.4615384615
+      },
+      "SKILL: MATERIALS":{
+        "p":1.0,
+        "r":0.1538461538,
+        "f":0.2666666667
+      },
+      "SKILL: EQUIPMENT":{
+        "p":0.6,
+        "r":0.1875,
+        "f":0.2857142857
+      },
+      "SKILL: BUILDING":{
+        "p":0.6666666667,
+        "r":0.2857142857,
+        "f":0.4
+      },
+      "SKILL: PLANNING":{
+        "p":0.875,
+        "r":0.4666666667,
+        "f":0.6086956522
+      },
+      "SKILL: RESPONSIBILITIES":{
+        "p":0.8333333333,
+        "r":0.5555555556,
+        "f":0.6666666667
+      },
+      "SKILL: SUPERVISION":{
+        "p":0.5,
+        "r":0.2,
+        "f":0.2857142857
+      }
+    },
+    "tok2vec_loss":4130.2473246047,
+    "ner_loss":519.5051269531
+  }
+}

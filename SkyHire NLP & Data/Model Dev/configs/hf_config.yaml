@@ -1,0 +1,34 @@
+# ============================================================
+#         HuggingFace NER Training Configuration
+# ============================================================
+
+model:
+  name_or_path: "distilbert-base-uncased"
+
+data:
+  train_file: "../data/cv_ner_format/train.jsonl"
+  validation_file: "../data/cv_ner_format/dev.jsonl"
+  test_file: "../data/cv_ner_format/test.jsonl"
+  label_list: "./configs/labels.txt"
+  text_field: "text"
+  labels_field: "entities"
+
+training:
+  output_dir: "../models/hf_ner/"
+  num_train_epochs: 10
+  per_device_train_batch_size: 8
+  per_device_eval_batch_size: 8
+  warmup_steps: 100
+  weight_decay: 0.01
+  gradient_accumulation_steps: 2
+  learning_rate: 5e-5
+  logging_dir: "../models/hf_ner/logs"
+  logging_steps: 50
+  save_steps: 500
+  evaluation_strategy: "epoch"
+  save_total_limit: 2
+
+tokenizer:
+  max_length: 256
+  padding: "max_length"
+  truncation: true
