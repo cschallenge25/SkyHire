@@ -1,0 +1,22 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Font Emirates (si c'est une font custom, tu devras l'importer) */
+@font-face {
+  font-family: 'EMIRATES';
+  src: url('./assets/fonts/Emirates\ Medium.ttf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Fallback si Emirates n'est pas disponible */
+.font-emirates {
+  font-family: 'EMIRATES', 'Montserrat', sans-serif;
+}
+
+.font-montessart {
+  font-family: 'Montserrat', sans-serif;
+}

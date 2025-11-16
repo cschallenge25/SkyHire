@@ -1,0 +1,37 @@
+body {
+    background: black;
+}
+
+#call-container {
+    display: block;
+    min-width: 600px;
+    min-height: 400px;
+    width: 100%;
+    height: 400px;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    font-family: "Emirates", "Emirates Medium", "Montserrat", "Arial", sans-serif;
+    z-index: 0;
+    position: relative;
+}
+
+span.waiting-to-join {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+span.waiting-to-join + video {
+    z-index: 1;
+}
+
+span.waiting-to-join + .vega-embed {
+    z-index: 3;
+}
